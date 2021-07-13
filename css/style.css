@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html * {
+    margin: 0 0 0 0;
+    padding: 0;
+    /*border: none;*/
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: rgb(190, 40, 40);;
+    color: white;
+    padding: 40px 0;
+}
+
+header {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+#container{
+    background: white;
+    color:rgb(190, 40, 40);
+    width: 400px;
+    margin: auto;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    font-size: 18px;;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+select {
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+select:hover {
+    border-color:rgb(190, 40, 40);
+    border-width: 3px;
+}
+
+input[type="date"] {
+    text-align: right;
+}
+
+fieldset {
+    padding: 10px 40px 0 40px;
+    border: none;
+}
+
+fieldset {
+    margin-bottom: 40px;
+}
+
+#caixa-validade {
+    display: inline-block;
+    width: 75%;
+}
+
+#caixa-cvv {
+    display: inline-block;
+    width: 23%;
+}
+
+h1 {
+    display: inline;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+input:hover {
+    border-color:rgb(190, 40, 40);
+    border-width: 3px;
+}
+
+@keyframes animacao-logo {
+    0%{
+        transform: scale(0);
+    }
+    25%{
+        transform: scale(0.25);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    75%{
+        transform: scale(0.75);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#logo {
+    animation: animacao-logo 0.35s;
+}

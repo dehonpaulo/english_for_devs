@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>English For Devs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon shortcut" href="./img/dev.png" />
+</head>
+<body>
+    <header id="logo">
+        <div>
+            <img src="./img/dev.png" alt="logo desenvolvedor">
+            <h1 id="titulo">English For Devs</h1>
+        </div>
+        <h2>Inglês que abre portas</h2>
+    </header>  
+    <main>
+        <div id="container">            
+            <form>
+              <fieldset>
+                  <legend>Cadastro</legend>
+
+                  <label for="nome">nome completo</label>
+                  <input type="text" name="nome" id="nome">
+
+                  <label for="nascimento">data de nascimento</label>
+                  <input type="date" name="nascimento" id="nascimento">
+
+                  <label for="cpf">cpf</label>
+                  <input type="text" name="cpf" id="cpf">
+
+                  <label for="email">email</label>
+                  <input type="email" name="email" id="email">
+
+                  <label for="celular">celular</label>
+                  <input type="text" name="celular" id="celular">
+
+              </fieldset>
+              <fieldset>
+                        <legend>Pagamento</legend>
+
+                        <label for="numero-cartao">número do cartão</label>
+                        <input type="text" name="numero-cartao" id="numero-cartao">
+
+                        <label for="nome-cartao">nome impresso no cartão</label>
+                        <input type="text" name="nome-cartao" id="nome-cartao">
+                        
+                        <div id="caixa-validade">
+                            <label for="mes-cartao">validade</label>
+                            <input type="month" name="mes-cartao" id="mes-cartao">
+                        </div>
+
+                        <div id="caixa-cvv">
+                            <label for="cvv-cartao">cvv</label>
+                            <input type="text" name="cvv-cartao" id="cvv-cartao">
+                        </div>
+
+                        <label for="parcelas-cartao">número de parcelas</label>
+                        <select name="parcelas-cartao" id="parcelas-cartao">
+                            <option value="1x">1 parcela de R$500,00</option>
+                            <option value="2x">2 parcelas de R$250,00</option>
+                            <option value="3x">3 parcelas de R$166,67</option>
+                            <option value="4x">4 parcelas de R$125,00</option>
+                            <option value="5x">5 parcelas de R$100,00</option>
+                        </select>
+                    </fieldset>
+
+                    <button type="submit">Comprar</button>
+                    <button type="reset">Limpar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
