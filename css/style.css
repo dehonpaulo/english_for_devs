@@ -96,23 +96,14 @@ input:hover {
 }
 
 @keyframes animacao-logo {
-    0%{
+    from{
         transform: scale(0);
     }
-    25%{
-        transform: scale(0.25);
-    }
-    50%{
-        transform: scale(0.5);
-    }
-    75%{
-        transform: scale(0.75);
-    }
-    100%{
+    to{
         transform: scale(1);
     }
 }
 
 #logo {
-    animation: animacao-logo 0.35s;
+    animation: animacao-logo 1s;
 }
